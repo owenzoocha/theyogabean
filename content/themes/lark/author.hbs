@@ -5,7 +5,7 @@
 	<div id="hero-mask"></div>
 	<div class="hero-content">
 		{{#if image}}<img class="hero-thumbnail" src="{{image}}" alt="{{name}}">{{/if}}
-		<h1 class="hero-title">{{name}}</h1>
+		<h1 itemprop="name" class="hero-title">{{name}}</h1>
 		<div class="hero-description">
 			{{#if location}}<span class="author-location"><i class="fa fa-map-marker"></i> {{location}}</span>{{/if}}
 			{{#if website}}<span class="author-website"><i class="fa fa-globe"></i> <a href="{{website}}">{{website}}</a></span>{{/if}}

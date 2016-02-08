@@ -2554,3 +2554,27 @@ body {
 .post .entry-meta .author-name a {
   color: #000;
 }
+@media (max-width: 768px) {
+  #navigation-bar .social-links {
+    display: none;
+  }
+  #main .post:last-of-type {
+    margin-bottom: 0;
+  }
+  #main .navigation {
+    display: none;
+  }
+  #secondary {
+    margin-top: 60px;
+  }
+  .entry-share .popup {
+    display: none;
+    min-width: 35px!important;
+  }
+  .entry-share .popup a {
+    margin: 0!important;
+  }
+  .entry-share .popup.open {
+    display: block;
+  }
+}

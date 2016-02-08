@@ -44,4 +44,36 @@ body {
   color: #000;
 }
 
+@media (max-width: @screen-sm) {
+  #navigation-bar {
+    .social-links {
+      display: none;
+    }
+  }
+  #main {
+    .post {
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+    .navigation {
+      display: none;
+    }
+  }
+  #secondary {
+    margin-top: 60px;
+  }
+  .entry-share {
+    .popup {
+      display: none;
+      min-width: 35px!important;
+      a {
+        margin: 0!important;
+      }
+      &.open {
+        display: block;
+      }
+    }
+  }
+}
 

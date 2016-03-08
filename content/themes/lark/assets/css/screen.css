@@ -2595,9 +2595,10 @@ body {
 #related-posts .related-posts li a {
   background: #aa7bc3;
   border-radius: 5px;
-  padding: 10px 15px;
+  padding: 0 10px;
+  display: block;
   color: #fff;
-  margin-right: 15px;
+  margin: 3px;
   font-family: "Ubuntu", sans-serif;
 }
 #related-posts .related-posts li a:hover {

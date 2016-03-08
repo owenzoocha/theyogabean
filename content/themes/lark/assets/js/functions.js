@@ -187,7 +187,10 @@ function initFeaturedPosts( $ ) {
 
 				bg = response.find( '#hero' ).css( 'background-image' );
 				if ( bg != '' ) {
-					output += ' style="background-image: url('+bg.substring(5, bg.lastIndexOf('")'))+');"';
+					bg = bg.slice(0, -1);
+					bg = bg.substring(4);
+					bg = bg.replace('"', '');
+					output += ' style="background-image: url('+bg+');"';
 				}
 
 				output += '>';

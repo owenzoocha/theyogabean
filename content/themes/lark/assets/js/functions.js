@@ -309,8 +309,7 @@ function openPopup( url, title, w, h ) {
 
 function initRelatedPosts( $ ) {
 	'use strict';
-
-	$( '#related-posts' ).ghostRelated( {
+	$( '.related-posts' ).ghostRelated( {
 		titleClass: '.hero-title',
 		tagsClass: '.cat-links',
 		limit: 3

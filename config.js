@@ -11,7 +11,7 @@ config = {
     // When running Ghost in the wild, use the production environment.
     // Configure your URL and mail settings here
     production: {
-        url: 'http://theyogabean.co.uk',
+        url: 'http://yb.local',
         mail: {},
         // database: {
         //     client: 'sqlite3',
@@ -26,7 +26,7 @@ config = {
             connection: {
                 host: 'localhost',
                 user: 'root',
-                password: 'Australia1',
+                password: 'owen123',
                 database: 'yogabean',
                 charset: 'utf8'
             }
@@ -42,7 +42,7 @@ config = {
     development: {
         // The url to use when providing links to the site, E.g. in RSS and email.
         // Change this to your Ghost blog's published URL.
-        url: 'http://theyogabean.co.uk',
+        url: 'http://yb.local',
 
         // Example mail config
         // Visit http://support.ghost.org/mail for instructions
@@ -74,7 +74,7 @@ config = {
             connection: {
                 host: 'localhost',
                 user: 'root',
-                password: 'Australia1',
+                password: 'owen123',
                 database: 'yogabeandev',
                 charset: 'utf8'
             }
